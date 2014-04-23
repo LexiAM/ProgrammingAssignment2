@@ -1,4 +1,4 @@
-## makeCacheMatrix and cacheSolve below are a pair of fucntions
+## makeCacheMatrix and cacheSolve below are a pair of functions
 ## that allow to create a special matrix object that can cache and retrieve its inverse
 
 
