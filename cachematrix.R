@@ -12,7 +12,7 @@ makeCacheMatrix <- function(x = matrix()) {
                 
                 set <- function(y) { #call function to store argument in object x
                         x <<- y
-                        x.inv <<- NULL #empty cached inverse
+                        x.inv <<- NULL #empty cached inverse when new matrix is being stored
                 }
                 
                 get <- function() x # call function to retrive matrix from object x
