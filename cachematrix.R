@@ -15,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
                         x.inv <<- NULL #empty cached inverse when new matrix is being stored
                 }
                 
-                get <- function() x # call function to retrive matrix from object x
+                get <- function() x  #call function to retrive matrix from object x
   
                 setinv <- function(solve) x.inv <<- solve #call function
                 # to invert matrix stored in object x and cache the inverse
