@@ -8,7 +8,7 @@
 
 makeCacheMatrix <- function(x = matrix()) {
                 
-                x.inv <- NULL #clear content of object x
+                x.inv <- NULL #clear content of cache store for inverse of x
                 
                 set <- function(y) { #call function to store argument in object x
                         x <<- y
